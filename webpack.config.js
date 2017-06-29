@@ -24,8 +24,8 @@ module.exports = {
     },
     // devserver 配置
     devServer: {
-        host: ip.address() || '0.0.0.0',
-        port: 88,
+        host: '127.0.0.1',
+        // port: 8080,
         hot: true,
         clientLogLevel: 'warning',
         historyApiFallback: true,
