@@ -16,6 +16,10 @@ module.exports = {
                 exclude: /node_modules/,
                 use: ['babel-loader']
             },
+            {
+                test: /\.json$/,
+                use: ['json-loader']
+            },
         ]
     },
     // devserver 配置
